@@ -28,11 +28,11 @@ def metamask_setup(driver):
     driver.implicitly_wait(3)
     inputs = driver.find_elements_by_xpath('//input')
     inputs[0].send_keys(
-        'express obtain yellow promote carry heavy cigar staff notable globe upon unable')
+        '********Your secret phrase************')
     driver.implicitly_wait(3)
 
-    inputs[1].send_keys('090078601')
-    inputs[2].send_keys('090078601')
+    inputs[1].send_keys('***Set a password*****')
+    inputs[2].send_keys('*******Set password*******')
     driver.find_element_by_xpath(
         '//*[@id="app-content"]/div/div[2]/div/div/form/div[7]/div').click()
     driver.implicitly_wait(3)
